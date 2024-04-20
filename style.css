@@ -106,7 +106,7 @@ span{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 5px;
-        padding: 8px;
+        padding: 10px;
     }
     
     button{
