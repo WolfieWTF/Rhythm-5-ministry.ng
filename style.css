@@ -69,7 +69,7 @@ button:active{
 }
 
 .name {
-    font-size: larger;
+    font-size: bold;
     color: rgb(97, 1, 1);
 }
 span{
@@ -139,7 +139,7 @@ span{
     }
     
     .name {
-        font-size: large;
+        font-size: bold;
         color: rgb(97, 1, 1);
     }
     span{
