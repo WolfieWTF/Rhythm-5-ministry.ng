@@ -7,6 +7,11 @@ body{
     background-color: hsl(0, 0%, 9%);
 }
 
+h1 {
+    color: gold;
+    text-align: center;
+}
+
 #calculator{
     font-family: Arial, sans-serif;
     background-image: url(tan.jpg);
