@@ -1,8 +1,5 @@
 body{
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: hsl(0, 0%, 9%);
 }
@@ -13,6 +10,9 @@ h1 {
 }
 
 #calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, sans-serif;
     background-image: url(tan.jpg);
     filter: brightness(100%);
@@ -78,17 +78,11 @@ button:active{
     color: rgb(97, 1, 1);
 }
 span{
-    color: rgb(0, 0, 0);
+    color: rgb(90, 4, 7);
 }
 
 @media(max-width:700px) {
-    body{
-    margin: 0;
-    height: 100vh;
-    background-color: hsl(0, 0%, 9%);
-        }
-                          
-    #calculator{
+     #calculator{
         font-family: Arial, sans-serif;
         background-image: url(tan.jpg);
         filter: brightness(100%);
@@ -154,6 +148,6 @@ span{
         color: rgb(97, 1, 1);
     }
     span{
-        color: rgb(0, 0, 0);
+        color: rgb(90, 4, 7);
     }
 }
