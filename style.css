@@ -8,11 +8,13 @@ h1 {
     color: gold;
     text-align: center;
 }
-
-.calculator{
+section{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.calculator{
+    
     font-family: Arial, sans-serif;
     background-image: url(tan.jpg);
     filter: brightness(100%);
