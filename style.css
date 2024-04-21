@@ -9,7 +9,7 @@ h1 {
     text-align: center;
 }
 
-#calculator{
+.calculator{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ button:active{
     color: rgb(97, 1, 1);
 }
 span{
-    color: rgb(90, 4, 7);
+    color: white;
 }
 
 @media(max-width:700px) {
@@ -148,6 +148,6 @@ span{
         color: rgb(97, 1, 1);
     }
     span{
-        color: rgb(90, 4, 7);
+        color: white;
     }
 }
