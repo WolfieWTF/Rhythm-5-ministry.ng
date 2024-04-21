@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-color: hsl(0, 0%, 9%);
 }
@@ -79,6 +82,12 @@ span{
 }
 
 @media(max-width:700px) {
+    body{
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(0, 0%, 9%);
+        }
+                          
     #calculator{
         font-family: Arial, sans-serif;
         background-image: url(tan.jpg);
